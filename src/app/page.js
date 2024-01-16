@@ -126,7 +126,7 @@ import Todos from './todos'
 const Page = async () => {
 
   return (
-    <div className="container">
+    <div className="container" style={{ width: "100%" }}>
       <Form />
 
       <Suspense fallback={<div>loading...</div>}>

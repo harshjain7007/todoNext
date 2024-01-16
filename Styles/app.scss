@@ -68,12 +68,17 @@ a {
 }
 .container {
   @include defaultStyle;
-  padding: 5rem 2rem;
+  padding: 6rem 2rem;
   background-color: $color4;
   overflow:hidden;
   width: 100%;
   height: auto;
 }
+
+
+// .container{
+//   width: 100% !important;
+// }
 
 // @media (min-width: 640px){
 //     .container {
