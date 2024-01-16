@@ -27,7 +27,8 @@ try {
 
 const Todos = async () => {
 
-    const token = cookies().get("token")?.value
+    // const token = cookies().get("token")?.value
+    const token = cookies().get("_vercel_jwt")?.value
 
   if(!token) return redirect("/login")
 
